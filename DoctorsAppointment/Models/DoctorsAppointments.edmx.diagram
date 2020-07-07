@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="72a72b3592834ea194f1e3dd005ca2ca" Name="Diagram1">
+        <EntityTypeShape EntityType="DoctorsAppointmentDBModel.sysdiagram" Width="1.5" PointX="6.125" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsAppointmentDBModel.Tbl_Categories" Width="1.5" PointX="1.625" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsAppointmentDBModel.Tbl_Doctors" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsAppointmentDBModel.Tbl_Items" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsAppointmentDBModel.Tbl_Patients" Width="1.5" PointX="9.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsAppointmentDBModel.Tbl_Roles" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsAppointmentDBModel.Tbl_Sheduling" Width="1.5" PointX="12" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoctorsAppointmentDBModel.Tbl_users" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="DoctorsAppointmentDBModel.FK_Tbl_Items_Tbl_Items" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsAppointmentDBModel.FK_Tbl_Doctors_Tbl_Doctors" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsAppointmentDBModel.FK_Tbl_Patients_Tbl_Patients" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsAppointmentDBModel.FK_Tbl_Sheduling_Tbl_Doctors" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsAppointmentDBModel.FK_Tbl_Items_Tbl_users" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsAppointmentDBModel.FK_Tbl_Sheduling_Tbl_Items" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsAppointmentDBModel.FK_Tbl_Patients_Tbl_users" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsAppointmentDBModel.FK_Tbl_Sheduling_Tbl_Patients" ManuallyRouted="false" />
+        <AssociationConnector Association="DoctorsAppointmentDBModel.FK_Tbl_users_Tbl_Roles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
